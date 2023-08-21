@@ -1,0 +1,18 @@
+.rotating-compass {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    animation: rotateCompass 5s linear infinite;
+    background-image: url('../images/compass1.png');
+    background-size: cover;
+}
+
+
+@keyframes rotateCompass {
+    from {
+        transforn: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,5 @@
+.explore-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
